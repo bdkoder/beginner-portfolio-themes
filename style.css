@@ -1,0 +1,342 @@
+/* 
+Theme Name:Portfolio Site
+Theme URI: www.shahidul.net
+Author: Shahidul Islam
+Author URI: www.shahidul.net
+Description: Portfolio Site.
+Version: 1.0
+Tags: blog, portfolio, site, personal site
+
+*/
+
+ 
+
+.admin-bar .navbar {
+	margin-top: 24px;
+}
+
+.slider-photo{
+	height: 220px;
+    width: 200px;
+}
+
+
+
+
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+/* =====================================    End Recent Post Section    ===================================== */
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+
+
+
+
+/* This CSS for small Mobile*/
+@media (max-width: 767px) {
+
+figure.effect-bubba {
+   height: 291px;
+}
+
+.add_padding {
+    margin-bottom: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+}
+
+/* This CSS for Tablet */
+@media (min-width: 768px) {
+
+figure.effect-bubba {
+    height: 233px;
+}
+
+}
+
+/* This CSS for Medium Devices */
+@media (min-width: 992px) {
+
+figure.effect-bubba {
+       height: 235px;
+}
+
+}
+
+/* This CSS for Large Devices */
+@media (min-width: 1200px) {
+
+figure.effect-bubba {
+    height: 315px;
+}
+
+}
+
+
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+/* =====================================    End Recent Post Section    ===================================== */
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+
+
+
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+/* =====================================    Start works_link Post Section    ===================================== */
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+a:focus, a:hover {
+    color: #23527c;
+    text-decoration: none;
+}
+.works_link{
+ /*  background: url("assets/images/sectionthree-shapes-bg.png"); */
+
+}
+.works_link{
+  padding: 120px 0px;
+}
+.works_link-title{
+ margin-bottom: 113px;
+}
+.works_link-title h2{
+  color: #454345;
+  font-weight: 600;
+  font-size: 35px;
+  position: relative;
+}
+ .coursebox:hover h2{
+  text-shadow: 3px 4px 2px #848484;
+}
+
+.coursebox:hover {
+  transform: rotate(3deg);
+}
+.coursebox {
+    position: relative;
+/*     width: 100%;
+    min-height: 380px; */
+    width: 95%;
+    min-height: 371px;
+
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-box-shadow: 0px 5px 12px 0px rgba(204,204,204,1);
+    -moz-box-shadow: 0px 5px 12px 0px rgba(204,204,204,1);
+    box-shadow: 0px 5px 12px 0px rgba(204,204,204,1);
+    background-color: white;
+    margin-bottom: 60px;
+    transition: all 0.5s ease 0s;
+    color: #848484;
+}
+
+.works_link a:hover .coursebox {
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(204,204,204,1);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(204,204,204,1);
+    box-shadow: 0px 5px 5px 0px rgba(204,204,204,1);
+    transition: all 0.5s ease 0s;
+}
+.coursebox h3{
+   text-decoration: none;
+
+}
+.coursebox-top {
+    width: 100%;
+    overflow: hidden;
+	border-radius: 7px 7px 0px 0px;
+}
+
+.coursebox-top img {
+    width: 100%;
+    height: 180px;
+}
+
+.coursebox h3 {
+    color: #866;
+    padding: 25px 0px 0px 14px;
+    font-size: 24px;
+}
+
+.coursebox-bottom {
+    position: absolute;
+    left: 18px;
+}
+.coursebox-bottom p{
+  text-align: justify;
+  padding-right: 13px;
+}
+.coursebox-bt{
+  position: absolute;
+    bottom: 18px;
+    left: 18px;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+
+
+
+
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+/* =====================================    End works_link Post Section    ===================================== */
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+
+
+
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+/* =====================================    Start developer_talent Post Section    ===================================== */
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+
+.developer_talent{
+  background: #f5f9fc;
+
+  padding: 90px 0px;
+}
+.hidden-c{
+    height: 600px;
+  overflow: hidden;
+}
+.developer_talent .left_side{
+  background: url("assets/images/sectionthree-shapes-bg.png") scroll center center no-repeat;
+  height: 666px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left top;
+  width: 111%;
+  left: 0;
+
+}
+
+.developer_talent .right_side h2{
+  font-weight: 300;
+  color: #07c;
+  font-size: 53px;
+}
+.developer_talent .right_side p{
+    color: #8484AB;
+    font-size: 15px;
+    line-height: 29px;
+    text-align: justify;
+    padding-top: 38px;
+}
+
+
+.right_side_btn{
+    appearance: none;
+    background-color: transparent;
+    border: 1px solid #f48024;
+    border-radius: 0;
+    color: #222426;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    line-height: 1;
+    padding: 1.25em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    transition: background-color 1500ms ease;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    min-width: 139px;
+}
+.right_side_btn:hover{
+  background: #f48024;
+  color: #fff;
+}
+
+
+
+
+
+
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+/* =====================================    End developer_talent Post Section    ===================================== */
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+
+
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+/* =====================================    Start Recent Work Post Section    ===================================== */
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+
+
+
+.portfolio_area .coursebox{}
+.portfolio_area .coursebox:hover h2{
+  text-shadow: 3px 4px 2px #848484;
+}
+.portfolio_area .coursebox h3{
+    padding: 43px 13px;
+    text-shadow: 3px 4px 2px #DDD;
+    color: #848484;
+}
+.portfolio_area .coursebox .coursebox-top{}
+.portfolio_area .coursebox .coursebox-top img{
+  height: 254px;
+}
+.portfolio_area .coursebox .coursebox-bottom{
+  color: red;
+}
+
+
+
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+/* =====================================    End Recent Work Post Section    ===================================== */
+/* ======================================================================================================== */
+/* ======================================================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
